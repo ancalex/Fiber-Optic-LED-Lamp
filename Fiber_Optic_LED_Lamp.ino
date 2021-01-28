@@ -42,7 +42,7 @@ void setup() {
 	FastLED.setBrightness(BRIGHTNESS);
 	FastLED.clear();
 	Serial.print("fastled started");
-//	EEPROM.update(0, setMode);
+//	EEPROM.update(0, setMode);        // at first run uncomment this for lines for initializing the eeprom data
 //	EEPROM.update(1, colorCounter);
 //	EEPROM.update(2, paletteCounter);
 //	EEPROM.update(3, gCurrentPatternNumber);
